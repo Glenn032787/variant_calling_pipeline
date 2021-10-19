@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Pipeline called by main_script.sh. Maps reads onto reference genome and outputs VCF for variant calling with liftover to hg19 reference genome. 
+
 if [[ $# != 3 ]]; then
 	exit 1
 fi
